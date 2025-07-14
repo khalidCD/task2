@@ -528,3 +528,175 @@ a:hover {
 .footer-cdb-alter{
     filter: brightness(0) invert(1);
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .vd-overlay {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .vd-overlay h1 {
+    font-size: 3rem;
+  }
+
+  .vd-overlay p {
+    font-size: 1.2rem;
+  }
+
+  .btn-blue {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .testimonial-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resources-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-icons .insta {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+  }
+
+  .vd-background {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links ul li a {
+    font-size: 14px;
+  }
+
+  .btn-yellow {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .vd-overlay h1 {
+    font-size: 2.3rem;
+  }
+
+  .vd-overlay p {
+    font-size: 1rem;
+  }
+
+  .btn-blue {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
+  .music-part h2 {
+    font-size: 1.5rem;
+  }
+
+  .music-part p {
+    font-size: 1rem;
+  }
+
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .distribute-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+
+  .email-overlay h2 {
+    font-size: 1.4rem;
+  }
+
+  .email-form {
+    flex-direction: column;
+  }
+
+  .email-form input[type="email"],
+  .email-form button {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .why-section h2 {
+    font-size: 2rem;
+  }
+
+  .why-cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .testimonial img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonial p {
+    font-size: 1rem;
+  }
+
+  .resources-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .resource-card {
+    width: 100%;
+  }
+
+  .footer-column ul li a {
+    font-size: 13px;
+  }
+
+  .privacy-note {
+    font-size: 12px;
+  }
+}
