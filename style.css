@@ -699,4 +699,22 @@ a:hover {
   .privacy-note {
     font-size: 12px;
   }
+
+  .footer-socials {
+    padding: 20px 10px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .social-icons img,
+  .social-icons .insta {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0 !important;
+  }
 }
